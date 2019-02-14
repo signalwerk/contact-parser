@@ -1,0 +1,54 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-Link {
+  color: cyan;
+  text-decoration: none;
+}
+.App-Link:hover {
+  color: red;
+}
+.App-Diff {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #ddd;
+}
+
+.App-Line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-Left,
+.App-Mid,
+.App-Right {
+  flex-basis: 32%;
+  overflow: hidden;
+}
+
+.App-Right {
+  background-color: #f8f8f8;
+}
+
+.br {
+  color: #ddd;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: 1em;
+  line-height: inherit;
+  width: 100%;
+}

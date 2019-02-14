@@ -1,0 +1,20 @@
+.Diff-Ins, .Diff-Del {
+  text-decoration: none;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  white-space: pre;
+}
+.Diff-Ins {
+  background: #d6FFd6;
+}
+
+.Diff-Del {
+  background: #FFE6E6;
+}
+.Diff-None {
+
+}
+
+.Diff-br {
+  opacity: 0.1;
+}

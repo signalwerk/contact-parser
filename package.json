@@ -1,5 +1,6 @@
 {
   "name": "contact-parser",
+  "homepage" : "http://signalwerk.github.io/contact-parser",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
